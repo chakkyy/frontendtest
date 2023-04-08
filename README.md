@@ -1,3 +1,10 @@
+<div align="center">
+<img src='https://imgur.com/a/JykZNgi' alt="Screenshot of the website" />
+<img src='https://imgur.com/a/1qHEgnB' alt="Lighthouse score" />
+</div>
+
+<br />
+
 # Chess.com - Front End Programming Challenge
 
 Welcome to the [Chess.com](https://chess.com) front end programming challenge!
@@ -43,7 +50,7 @@ Welcome to the [Chess.com](https://chess.com) front end programming challenge!
 
 ## Live Preview
 
-- Visit -link- to see the live preview of the project.
+- Visit [https://frontendtest-chesscom-cr.vercel.app](https://frontendtest-chesscom-cr.vercel.app) to see the live preview of the project.
 
 # Questions & Feedback
 
