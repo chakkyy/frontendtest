@@ -1,9 +1,9 @@
-<div align="center">
-<img src='https://i.imgur.com/xpTDU7G.png' alt="Screenshot of the website" />
-<img src='https://i.imgur.com/ZpbzjQn.png' alt="LiteFlix" />
-</div>
+  <div align="center">
+  <img src='https://i.imgur.com/xpTDU7G.png' alt="Screenshot of the website" />
+  <img src='https://i.imgur.com/ZpbzjQn.png' alt="LiteFlix" />
+  </div>
 
-<br />
+  <br />
 
 # Chess.com - Front End Programming Challenge
 
@@ -36,6 +36,17 @@ Welcome to the [Chess.com](https://chess.com) front end programming challenge!
 
 - Added a reset button to the sidebar.
 - Clicking the reset button clears the highlighted squares on the chessboard and resets the list of clicked squares in the sidebar.
+
+## Learning VueJS
+
+This was my first experience with VueJS, and I was able to learn it in just 4 days to complete this challenge. Although I had some prior experience with JavaScript and other front-end development frameworks, learning a new framework always comes with its own set of challenges.
+
+One of the biggest challenges I faced was understanding Vue's reactivity system and how it differs from traditional JavaScript and other frameworks like ReactJS.
+While ReactJS uses a unidirectional data flow and relies on the use of state and props to manage data, VueJS has a reactive system that automatically updates the view when data changes. This required a shift in my thinking and approach to state management, which was initially challenging. However, I found the VueJS documentation to be extremely helpful in clarifying these concepts and providing examples that I could follow.
+
+In addition to the documentation, I also used online tutorials and courses to supplement my learning. Some resources that I found particularly helpful were the official VueJS documentation, Vue Mastery, and the VueJS Crash Course by Traversy Media on YouTube.
+
+Overall, I'm proud of what I was able to accomplish in such a short amount of time with VueJS, and I'm excited to continue learning and exploring this powerful framework in the future.
 
 ## Running the Project
 
