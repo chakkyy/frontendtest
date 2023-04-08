@@ -1,6 +1,6 @@
 <div align="center">
-<img src='https://imgur.com/a/JykZNgi' alt="Screenshot of the website" />
-<img src='https://imgur.com/a/1qHEgnB' alt="Lighthouse score" />
+<img src='https://i.imgur.com/xpTDU7G.png' alt="Screenshot of the website" />
+<img src='https://i.imgur.com/ZpbzjQn.png' alt="LiteFlix" />
 </div>
 
 <br />
