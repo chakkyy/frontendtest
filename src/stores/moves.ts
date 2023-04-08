@@ -20,7 +20,6 @@ export interface MoveListStore {
   highlightedSquares: Ref<string[]>; // Contains the highlighted squares.
   updateHighlightedSquares: () => void; // Updates the highlighted squares.
   addSquare: (move: string) => void; // Adds a move to the move list.
-  completeMove: () => void; // Completes a move.
   resetMoveList: () => void; // Resets the move list.
   undoMove: () => void; // Undoes the last move.
   redoMove: () => void; // Redoes the last undone move.
@@ -70,15 +69,6 @@ export const useMoveListStore = defineStore('movelist', (): MoveListStore => {
       moveHistory.value.push({ firstCell: cell, secondCell: '' }); // Adds a new move pair to the move history.
     }
     updateHighlightedSquares();
-  }
-
-  /**
-   * Completes a move by removing it if it doesn't have a second cell.
-   */
-  function completeMove() {
-    if (moves.value.length > 0 && !moves.value[moves.value.length - 1].secondCell) {
-      moves.value.pop(); // Removes the last move if it doesn't have a second cell.
-    }
   }
 
   /**
@@ -191,7 +181,6 @@ export const useMoveListStore = defineStore('movelist', (): MoveListStore => {
     highlightedSquares,
     updateHighlightedSquares,
     addSquare,
-    completeMove,
     resetMoveList,
     undoMove,
     redoMove,
