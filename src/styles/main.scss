@@ -1,6 +1,16 @@
 @import 'normalize.scss';
 
-html,body{
-  background-color: #51504c;
-  font-family: "Montserrat", sans-serif;
+html,
+body {
+  background-color: #312e2b;
+  font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+  --dark-square-bg-color: #779953;
+  --font-color-dark-square: #edeed2;
+  --light-square-bg-color: #eeeed2;
+  --font-color-light-square: #779953;
+  --dark-highlight-square-bg-color: #c9d755;
+  --light-highlight-square-bg-color: #f9f987;
 }
